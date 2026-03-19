@@ -1,4 +1,4 @@
-# Cookiy MCP Tool Design
+# MCP Tool Design Skill
 
 `cookiy-mcp-tool-design` is a reusable Codex/Claude skill for designing and reviewing MCP or function-calling tools so agents can choose them correctly, pass the right parameters, recover from errors, and avoid unsafe side effects.
 
