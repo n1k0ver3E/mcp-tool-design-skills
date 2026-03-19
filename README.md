@@ -1,6 +1,6 @@
 # MCP Tool Design Skill
 
-`cookiy-mcp-tool-design` is a reusable Codex/Claude skill for designing and reviewing MCP or function-calling tools so agents can choose them correctly, pass the right parameters, recover from errors, and avoid unsafe side effects.
+`mcp-tool-design-skill` is a reusable Codex/Claude skill for designing and reviewing MCP or function-calling tools so agents can choose them correctly, pass the right parameters, recover from errors, and avoid unsafe side effects.
 
 It turns a practical MCP design checklist into a lightweight skill you can invoke during tool design or review work.
 
