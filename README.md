@@ -4,6 +4,8 @@
 
 It turns a practical MCP design checklist into a lightweight skill you can invoke during tool design or review work.
 
+This skill was influenced by the article. [如何让你的 Agent 更准确：MCP 工具设计技巧](https://mp.weixin.qq.com/s/wpiROVdoJAHvolkEpYo20w?scene=1). 
+
 ## What This Skill Helps With
 
 - Reviewing tool `name`, `description`, and `inputSchema`
