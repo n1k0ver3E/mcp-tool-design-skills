@@ -1,9 +1,9 @@
 ---
-name: cookiy-mcp-tool-design
+name: mcp-tool-design-skills
 description: Design and review MCP or function-calling tools for Agent reliability. Use when creating or auditing tool names, descriptions, input schemas, defaults, error payloads, destructive-operation safeguards, tool count, or when deciding whether a Skill should replace more tools.
 ---
 
-# Cookiy MCP Tool Design
+# MCP Tool Design Skills
 
 Use this skill when an Agent tool works technically but is hard for the model to choose or call correctly.
 

@@ -1,10 +1,10 @@
-# MCP Tool Design Skill
+# MCP Tool Design Skills
 
-`mcp-tool-design-skill` is a reusable Codex/Claude skill for designing and reviewing MCP or function-calling tools so agents can choose them correctly, pass the right parameters, recover from errors, and avoid unsafe side effects.
+`mcp-tool-design-skills` is a reusable Codex/Claude skill package for designing and reviewing MCP or function-calling tools so agents can choose them correctly, pass the right parameters, recover from errors, and avoid unsafe side effects.
 
 It turns a practical MCP design checklist into a lightweight skill you can invoke during tool design or review work.
 
-This skill was influenced by the article. [如何让你的 Agent 更准确：MCP 工具设计技巧](https://mp.weixin.qq.com/s/wpiROVdoJAHvolkEpYo20w?scene=1). 
+This skill was influenced by the article [如何让你的 Agent 更准确：MCP 工具设计技巧](https://mp.weixin.qq.com/s/wpiROVdoJAHvolkEpYo20w?scene=1).
 
 ## What This Skill Helps With
 
@@ -34,15 +34,15 @@ This skill was influenced by the article. [如何让你的 Agent 更准确：MCP
 Clone the repo and symlink it into your Codex skills directory:
 
 ```bash
-git clone https://github.com/<your-org>/cookiy-mcp-tool-design.git
+git clone https://github.com/<your-org>/mcp-tool-design-skills.git
 mkdir -p ~/.codex/skills
-ln -s /absolute/path/to/cookiy-mcp-tool-design ~/.codex/skills/cookiy-mcp-tool-design
+ln -s /absolute/path/to/mcp-tool-design-skills ~/.codex/skills/mcp-tool-design-skills
 ```
 
 If you prefer copying instead of symlinking:
 
 ```bash
-cp -R /absolute/path/to/cookiy-mcp-tool-design ~/.codex/skills/cookiy-mcp-tool-design
+cp -R /absolute/path/to/mcp-tool-design-skills ~/.codex/skills/mcp-tool-design-skills
 ```
 
 ### Claude Code
@@ -50,9 +50,9 @@ cp -R /absolute/path/to/cookiy-mcp-tool-design ~/.codex/skills/cookiy-mcp-tool-d
 Clone the repo and place it under your project's Claude skills directory:
 
 ```bash
-git clone https://github.com/<your-org>/cookiy-mcp-tool-design.git
+git clone https://github.com/<your-org>/mcp-tool-design-skills.git
 mkdir -p .claude/skills
-ln -s /absolute/path/to/cookiy-mcp-tool-design .claude/skills/cookiy-mcp-tool-design
+ln -s /absolute/path/to/mcp-tool-design-skills .claude/skills/mcp-tool-design-skills
 ```
 
 ## How To Use
@@ -61,10 +61,10 @@ Invoke the skill explicitly when you are designing or reviewing MCP/function-cal
 
 Example prompts:
 
-- `Use $cookiy-mcp-tool-design to review this MCP tool schema.`
-- `Use $cookiy-mcp-tool-design to redesign these 12 tools into a smaller set.`
-- `Use $cookiy-mcp-tool-design to make this destructive tool safer.`
-- `Use $cookiy-mcp-tool-design to decide whether this should be a tool or a skill.`
+- `Use $mcp-tool-design-skills to review this MCP tool schema.`
+- `Use $mcp-tool-design-skills to redesign these 12 tools into a smaller set.`
+- `Use $mcp-tool-design-skills to make this destructive tool safer.`
+- `Use $mcp-tool-design-skills to decide whether this should be a tool or a skill.`
 
 You can also ask for focused reviews:
 

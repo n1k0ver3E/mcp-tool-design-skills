@@ -1,4 +1,4 @@
 interface:
-  display_name: "Cookiy MCP Tool Design"
+  display_name: "MCP Tool Design Skills"
   short_description: "Review MCP tools for Agent reliability"
-  default_prompt: "Use $cookiy-mcp-tool-design to design or review MCP/function-calling tools for reliable Agent use."
+  default_prompt: "Use $mcp-tool-design-skills to design or review MCP/function-calling tools for reliable Agent use."
